@@ -1,6 +1,6 @@
 set nocompatible
 syntax on
-colorscheme evening
+colorscheme vibrantink 
 set showcmd
 set showmode
 filetype plugin indent on
@@ -18,4 +18,7 @@ set expandtab
 set autoindent
 set wildmode=list:longest
 set wildmenu
+
+autocmd FileType c setlocal shiftwidth=2 tabstop=2
+autocmd FileType h setlocal shiftwidth=2 tabstop=2
 
