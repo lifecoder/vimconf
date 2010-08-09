@@ -1,6 +1,6 @@
 set nocompatible
 syntax on
-colorscheme evening
+colorscheme vibrantink 
 set showcmd
 set showmode
 filetype plugin indent on
